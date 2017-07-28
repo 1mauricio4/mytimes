@@ -57,16 +57,38 @@ a {
   margin-right: 32px;
 }
 
+/****** Image Content ******/
+
+.image-content {
+  display: flex;
+}
+
 /****** 1st Column ******/
 
 .column.large {
   width: 630px;
 }
 
+div .main-story {
+  background-image: url("../images/main-story.png");
+}
+
+div .story-2 {
+  background-image: url("../images/story-2.png");
+}
+
+div .story-3 {
+  background-image: url("../images/story-3.png");
+}
+
 /****** 2nd Column ******/
 
 .column.medium {
   width: 300px;
+}
+
+div .story-1 {
+  background-image: url("../images/story-1.png");
 }
 
 /****** 3rd Column ******/
