@@ -11,6 +11,9 @@ header {
   display: flex;
   align-items: center;
   border-bottom: 1px solid black;
+  position: fixed;
+  z-index: 20;
+  background-color: white;
 }
 
 .logo {
@@ -36,4 +39,42 @@ span {
 
 a {
   color: black;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 116px;
+  width: 1232px;
+  margin: 0 auto 66px auto;
+}
+
+/****** Main Container ******/
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+/****** 1st Column ******/
+
+.column.large {
+  width: 630px;
+}
+
+/****** 2nd Column ******/
+
+.column.medium {
+  width: 300px;
+}
+
+/****** 3rd Column ******/
+
+.column.small {
+  width: 240px;
+}
+
+.news-bites h3 {
+  text-transform: capitalize;
 }
