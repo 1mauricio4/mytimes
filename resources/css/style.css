@@ -178,6 +178,7 @@ footer {
   font-family: Verdana;
   font-size: 12px;
   margin: auto;
+  flex-grow: 1;
 }
 
 .brand h3 {
