@@ -44,6 +44,12 @@ a {
   color: black;
 }
 
+h2 {
+  font-size: 30px;
+  margin-top: 0px;
+  font-family: Georgia;
+}
+
 /****** Main Container ******/
 
 .content {
@@ -70,7 +76,7 @@ div .image-content {
   font-size: 30px;
   color: white;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   text-align: center;
 }
 
@@ -96,7 +102,7 @@ div .main-story {
   background-image: url("../images/main-story.png");
   font-size: 40px;
   width: 630px;
-  text-align: left;
+  text-align: center;
 }
 
 .stories {
