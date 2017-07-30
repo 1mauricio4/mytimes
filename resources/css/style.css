@@ -2,6 +2,10 @@ div {
   border: 1px solid black;
 }
 
+body {
+  margin-top: 0px;
+}
+
 header {
   font-family: Verdana;
   font-size: 14px;
@@ -12,7 +16,7 @@ header {
   align-items: center;
   border-bottom: 1px solid black;
   position: fixed;
-  z-index: 20;
+  z-index: 1;
   background-color: white;
 }
 
@@ -27,29 +31,31 @@ header {
 
 .logo img {
   margin-right: 12px;
+  width: 70px;
+  height: 60px;
+}
+
+nav span {
+  padding: 20px 10px;
 }
 
 header nav {
   padding-right: 40px;
 }
 
-span {
-  padding: 20px 10px;
-}
-
 a {
   color: black;
 }
 
+/****** Main Container ******/
+
 .content {
   display: flex;
-  justify-content: space-between;
   padding-top: 116px;
   width: 1232px;
   margin: 0 auto 66px auto;
 }
 
-/****** Main Container ******/
 
 .column {
   display: flex;
@@ -59,8 +65,28 @@ a {
 
 /****** Image Content ******/
 
-.image-content {
+div .image-content {
   display: flex;
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.story-2, .story-3, .story-1 {
+  margin-top: 10px;
+}
+
+/****** Nerrative ******/
+
+.nerrative p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 /****** 1st Column ******/
@@ -71,6 +97,9 @@ a {
 
 div .main-story {
   background-image: url("../images/main-story.png");
+  font-size: 40px;
+  width: 630px;
+  text-align: left;
 }
 
 div .story-2 {
